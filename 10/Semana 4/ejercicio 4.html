@@ -1,0 +1,20 @@
+<script>
+
+var n;
+var venmen;
+var venmay;
+var com
+
+n=parseInt(prompt("escriba el numero de vendedores"));
+for( var i=1; i<=n; i++){
+    document.writeln("vendedor",i, "<BR><BR>");
+    venmen= parseInt(prompt("ingrese total de ventas menores a 100.000"));
+    venmay= parseInt(prompt("ingrese total de ventas mayores a 100.000"));
+
+    com= (venmen* 2.5/100)+ (venmay * 75/100);
+
+    document.writeln("comision =", com ,"<BR>");
+
+}
+
+</script>

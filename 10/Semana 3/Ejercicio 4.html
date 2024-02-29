@@ -1,0 +1,21 @@
+<script>
+
+    var genero;
+    var edad;
+    var tiempo;
+
+    genero = prompt("escriba el genero ( H o M)");
+    edad = parseInt(prompt("escriba la edad"));
+    tiempo = parseInt(prompt("escriba el tiempo (seg)"));
+
+    if (genero == "H" && edad >= 40 && tiempo <= 150) {
+        document.write("ingresa a la caerrera")
+    } else if (genero == "M" && tiempo <= 180) {
+        document.writeln("ingresa a la carrera")
+    } else if (genero == "H" && edad >= 40 && tiempo <= 17){
+    document.writeln("ingresa a la carrera")
+    }else{
+        document.writeln("NO ingresa a la carrera")
+
+    }
+</script>
